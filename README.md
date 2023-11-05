@@ -2,7 +2,7 @@
 
 In the web platform "**RedShelf Virdocs**" you are allowed to print in PDF your ePub/eReader documents, but sometimes contributors do not allow downloading and printing to avoid possible leaks or third party distributions not allowed.
 
-This is a small Python script that allows you to "bypass" this protection and download ePub/eReader documents and export them to PDF format. First all pages are downloaded in jpg image format, resized to A4 size and finally a PDF document output is generated.
+This python script allows us to "bypass" this protection and download ePub/eReader documents and export them to PDF format. First all pages are downloaded in jpg image format, resized to A4 size and finally a PDF document output is generated.
 
 ### Requirements
 ```python
