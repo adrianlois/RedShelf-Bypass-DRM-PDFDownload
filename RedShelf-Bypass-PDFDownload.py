@@ -17,27 +17,26 @@ def load_cookies_from_json(file_name):
 
 # Directory in which you want to save the images
 target_directory_img = "TARGET_DIRECTORY_IMG"
+# Base URL
+base_url = "https://platform.virdocs.com/rscontent/epub/XXXXXXX/XXXXXXX/OEBPS/images/page-{}.jpg"
+# Total number of URL pages
+numpag = 350
+# PDF file name
+pdf_file = "EXPORT_PDF_FILE.pdf"
 
 # Create the directory if it does not exist
 if not os.path.exists(target_directory_img):
     os.makedirs(target_directory_img)
 
-# Base URL
-base_url = "https://platform.virdocs.com/rscontent/epub/XXXXXXX/XXXXXXX/OEBPS/images/page-{}.jpg"
-
 # Load session cookies from a JSON file
 cookies = load_cookies_from_json("cookies.json")
 
 if cookies is not None:
-    # PDF file name
-    pdf_file = "EXPORT_PDF_FILE.pdf"
-
     # Create an A4 formatted PDF document in portrait orientation
     doc = SimpleDocTemplate(pdf_file, pagesize=A4, rightMargin=30, leftMargin=30, topMargin=30, bottomMargin=30)
 
     images = []
-    numpag = 350
-    
+
     for numpag in range(1, numpag + 1):
         url = base_url.format(numpag)
         file_name = os.path.join(target_directory_img, f"{numpag}.jpg")
