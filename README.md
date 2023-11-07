@@ -1,4 +1,4 @@
-# RedShelf Virdocs - Bypass protection PDF Download
+# RedShelf Virdocs - Bypass DRM protection PDF Download
 
 In the web platform "**RedShelf Virdocs**" you are allowed to print in PDF your ePub/eReader documents, but sometimes the contributors or owners add DRM *(Digital Rights Management)* protection for do not allow the downloading and printing of these eBooks to avoid possible leaks or unauthorized third party distributions.
 
