@@ -39,5 +39,5 @@ Replace session cookie settings. Use any browser addon for editing and exporting
 
 ### Usage
 ```python
-python3 RedShelf-Bypass-PDFDownload.py
+python3 RedShelf-BypassDRM-PDFDownload.py
 ```
