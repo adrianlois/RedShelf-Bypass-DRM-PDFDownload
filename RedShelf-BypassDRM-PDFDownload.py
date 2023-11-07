@@ -58,6 +58,7 @@ if cookies is not None:
             print(f"Could not download the {file_name}. Status code: {response.status_code}")
 
     # Sort images by page number
+    print(f"Sort images by page number...")
     images = sorted(images, key=lambda x: x[0])
 
     # Generate the PDF with the images in page order
