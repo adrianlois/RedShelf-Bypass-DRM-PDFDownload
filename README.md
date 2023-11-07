@@ -1,8 +1,8 @@
 # RedShelf Virdocs - Bypass protection PDF Download
 
-In the web platform "**RedShelf Virdocs**" you are allowed to print in PDF your ePub/eReader documents, but sometimes the contributors or owners do not allow the downloading and printing of these eBooks to avoid possible leaks or unauthorized third party distributions.
+In the web platform "**RedShelf Virdocs**" you are allowed to print in PDF your ePub/eReader documents, but sometimes the contributors or owners add DRM *(Digital Rights Management)* protection for do not allow the downloading and printing of these eBooks to avoid possible leaks or unauthorized third party distributions.
 
-This python script allows us to "bypass" this protection and download ePub/eReader documents and export them to PDF format. First all pages are downloaded in jpg image format, resized to A4 size and finally a PDF document output is generated.
+This python script allows us to "bypass" DRM this protection and download ePub/eReader documents and export them to PDF format. First all pages are downloaded in jpg image format, resized to A4 size and finally a PDF document output is generated.
 
 ### Requirements
 ```python
