@@ -1,4 +1,6 @@
 {
-    "session_id": "value1",
-    "csrftoken": "value2"
+    "csrftoken": "value1",
+    "AMP_d698e26b82": "value2",
+    "AMP_MKTG_d698e26b82": "value3",
+    "session_id": "value4"
 }
