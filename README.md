@@ -44,3 +44,11 @@ python3 RedShelf-BypassDRM-PDFDownload.py
 ```
 
 ![redshelf-virdocs-export-pdf](screenshots/redshelf-virdocs-export-pdf.png)
+
+### Path to download without using the `img` tag
+
+- Erikas Taroza: https://github.com/erikas-taroza/redshelf_downloader
+
+```
+https://platform.virdocs.com/spine/XXXXXXX/{}
+```
