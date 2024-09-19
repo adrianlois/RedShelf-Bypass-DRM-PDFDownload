@@ -33,7 +33,7 @@ cookies = load_cookies_from_json("cookies.json")
 
 if cookies is not None:
     # Create an A4 formatted PDF document in portrait orientation
-    doc = SimpleDocTemplate(pdf_file, pagesize=A4, rightMargin=30, leftMargin=30, topMargin=30, bottomMargin=30)
+    doc = SimpleDocTemplate(pdf_file, pagesize=A4, rightMargin=0, leftMargin=0, topMargin=0, bottomMargin=0)
 
     images = []
 
