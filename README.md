@@ -44,7 +44,7 @@ Edit `config.json` (do not modify the script):
 
 ### Cookies
 
-Copy cookies for `platform.virdocs.com` using any browser extension **while the book is open in the reader**.
+Copy cookies for "platform.virdocs.com" using any browser extension **while the book is open in the reader**. Update the values of `session_id` and `csrftoken` in `cookies.json`.
 
 > [!TIP]
 > The `session_id` cookie expires when the browser is closed — always export fresh cookies with the book open.
