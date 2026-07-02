@@ -1,4 +1,12 @@
-{
-    "session_id": "value1",
-    "csrftoken": "value2"
-}
+[
+    {
+        "domain": "platform.virdocs.com",
+        "name": "csrftoken",
+        "value": "CSRFTOKEN_VALUE"
+    },
+    {
+        "domain": "platform.virdocs.com",
+        "name": "session_id",
+        "value": "SESSION_ID_VALUE"
+    }
+]

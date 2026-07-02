@@ -1,0 +1,9 @@
+{
+    "target_directory_img": "C:\\Users\\adrian\\Desktop\\Book_Download",
+    "base_url": "https://platform.virdocs.com/rscontent/epub/XXXXXXX/XXXXXXX/OEBPS/images/page-{}.jpg",
+    "numpag": 450,
+    "pdf_filename": "file.pdf",
+    "max_workers": 8,
+    "max_retry_rounds": 5,
+    "cf_wait_buffer": 15
+}
